@@ -448,8 +448,7 @@ function realchess.move(pos, from_list, from_index, to_list, to_index, _, player
 							end
 						end
 						inv:set_stack(from_list, 62, "realchess:rook_white_2")
-						inv:set_stack(from_list, 64, "")
-						check = false
+							check = false
 					end
 				end
 			end
